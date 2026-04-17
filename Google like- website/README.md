@@ -1,140 +1,126 @@
-# 🌐 Azure Translator Pro
+# 🌐 Azure Translator Web App
 
-A modern and responsive web-based translation app built using **HTML, CSS, and JavaScript**, powered by Microsoft Azure Translator API.
+A simple and responsive web application that translates text into multiple languages using the **Microsoft Azure Translator API**.
 
 ---
 
 ## 🚀 Features
 
-* 🌍 Translate text between multiple languages
-* 🔑 User-provided Azure API Key & Region support
-* 🔄 Language swap functionality
-* 🎨 Clean and modern UI/UX design
-* ⚡ Fast and lightweight (no frameworks required)
-* 📱 Responsive layout
-
----
-
-## 🌎 Supported Languages
-
-* English 🇺🇸
-* Hindi 🇮🇳
-* French 🇫🇷
-* Spanish 🇪🇸
-* German 🇩🇪
+* 🌍 Translate text into multiple languages
+* ⚡ Fast and real-time translation
+* 🎯 Clean and user-friendly interface
+* 📱 Responsive design (works on mobile & desktop)
+* 🔗 Powered by Azure Cognitive Services
 
 ---
 
 ## 🛠️ Tech Stack
 
-* HTML5
-* CSS3 (Modern UI styling)
-* JavaScript (Fetch API)
-* Microsoft Azure Translator API
+* **Frontend:** HTML, CSS, JavaScript
+* **API:** Microsoft Azure Translator API
 
 ---
 
 ## 📂 Project Structure
 
 ```
-📁 azure-translator-pro
-│── index.html      # Main UI structure
-│── style.css       # Styling and layout
-│── script.js       # Translation logic
-│── README.md       # Project documentation
+Translator/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
 ```
 
 ---
 
 ## ⚙️ Setup Instructions
 
-1. Clone the repository:
+### 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/your-username/azure-translator-pro.git
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 ```
-
-2. Open the project folder:
-
-```
-cd azure-translator-pro
-```
-
-3. Open `index.html` in your browser
 
 ---
 
-## 🔑 How to Get Azure API Key
+### 2️⃣ Get Azure Translator API Key
 
-1. Go to Microsoft Azure Portal
-
-2. Create a **Translator resource**
-
+1. Go to Azure Portal
+2. Create a **Translator Resource**
 3. Copy:
 
    * API Key
-   * Region (e.g. `centralindia`, `eastus`)
-
-4. Paste them into the app UI
+   * Endpoint
 
 ---
 
-## ⚠️ Important Note
+### 3️⃣ Configure API in `script.js`
 
-This project uses **client-side API calls**, which means:
+Replace with your credentials:
 
-* Your API key is visible in the browser
-* Not recommended for production use
-
-👉 For production:
-
-* Use a backend (Node.js / Python)
-* Store API keys securely
+```javascript
+const key = "YOUR_API_KEY";
+const endpoint = "YOUR_ENDPOINT_URL";
+```
 
 ---
 
-## 🧪 Common Errors
+### 4️⃣ Run the App
 
-| Error            | Cause            |
-| ---------------- | ---------------- |
-| 401 Unauthorized | Invalid API Key  |
-| 403 Forbidden    | Incorrect Region |
-| CORS Error       | Backend required |
+Simply open:
+
+```
+index.html
+```
+
+in your browser 🎉
+
+---
+
+## 🌍 Supported Languages
+
+* English
+* Hindi
+* Spanish
+* French
+* German
+
+(You can easily add more languages)
+
+---
+
+## 📸 Screenshots
+
+*Add screenshots of your app here (optional but recommended)*
 
 ---
 
 ## ✨ Future Improvements
 
-* 🔐 Backend integration (secure API usage)
-* 🎤 Voice input (Speech-to-Text)
-* 🔊 Text-to-Speech output
-* 🌙 Dark mode
-* 📜 Translation history
-* ⚛️ React version
-
----
-
-## 📸 Preview
-
-![App Screenshot](screenshot.png)
+* Voice input 🎤
+* Text-to-speech 🔊
+* Language auto-detection 🤖
+* Dark mode 🌙
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-Feel free to fork the repo and submit a pull request.
+Feel free to fork this repo and contribute!
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the **MIT License**.
 
 ---
 
 ## 👩‍💻 Author
 
-Developed by **Riya Patel**
+**Riya Patel**
 
 ---
+
+⭐ If you like this project, don't forget to star the repository!
